@@ -131,13 +131,12 @@ export default function RecetaDetail() {
                                         <div className="card-footer-item has-text-centered is-flex is-justify-content-center">
                                             <p>
                                                 <strong>Autor: </strong>
-                                                {receta ? <NavLink
+                                                <NavLink
                                                     to={`../../users/${receta.owner}`}
                                                     relative="path"
                                                 >
                                                     <User id={receta.owner} />
-                                                </NavLink>
-                                                : "usuario no encontrado" }
+                                                </NavLink>                                                
                                             </p>
                                         </div>
                                         <div className="card-footer-item">
