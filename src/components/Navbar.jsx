@@ -67,14 +67,14 @@ export default function Navbar() {
 
                     <div className="navbar-end">
                         {isAuthenticated ? (
-                            <div className="navbar-item has-text-white">
+                            <div className="navbar-item has-text-black">
                                 HOLA
                                 <span>&nbsp;</span>
                                 <User id={user__id} showFullName={false}/>!
                             </div>
                         ) : (
                             <div className="navbar-item">
-                                <NavLink to="/login" className="has-text-white" onClick={closeNavbar}>
+                                <NavLink to="/login" className="has-text-black" onClick={closeNavbar}>
                                     CONÉCTATE
                                 </NavLink>
                             </div>

@@ -5,7 +5,7 @@ export default function Footer() {
         // style={{magin:"0", padding:"0"}}
         <footer className="footer custom" >
             <div className="content has-text-centered" >
-                <p>
+                <p className="has-text-black">
                     Tus recetas by{" "}
                     <a href="https://gmail.com">tusRecetas@gmail.com</a>.
                 </p>

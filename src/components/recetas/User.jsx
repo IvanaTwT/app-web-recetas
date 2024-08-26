@@ -37,7 +37,7 @@ export default function User({ id, showFullName = true }) {
     return (
         <div>
             {user ? (
-                <p>
+                <p className="has-text-black">
                     {showFullName ? (
                         `${user.first_name} ${user.last_name}`
                     ) : (
